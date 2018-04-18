@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    android:padding="@dimen/size10dp"
+    >
+    <TextView
+        android:layout_marginTop="50dp"
+        android:text="Thông Tin mượn sách"
+        android:textSize="@dimen/size30sp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+        <Spinner
+            android:id="@+id/spMadocgia"
+            android:layout_width="200dp"
+           android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:gravity="center"
+            android:text="ccc"
+            android:id="@+id/edtTenDocGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"/>
+        <Spinner
+            android:layout_gravity="center"
+            android:id="@+id/spMaSach"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:gravity="center"
+            android:text="ccc"
+            android:id="@+id/edtTenSach"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/edtNgayMuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày mượn"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/edtNgayTra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày Trả"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đồng Ý Cho Mượn"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

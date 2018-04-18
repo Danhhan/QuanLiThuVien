@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#062e2e"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="@dimen/size150dp"
+        android:layout_height="@dimen/size150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/logo" />
+    <TextView
+        android:text="Quản Lý Thư Viện"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/size30sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtTaiKhoan"
+        android:drawableLeft="@drawable/user"
+        android:drawableTint="@color/colorWhite"
+        android:drawablePadding="@dimen/size10dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/dangnhap"
+        android:textColorHint="@color/colorWhite"
+        android:background="@drawable/bgedt"
+        android:padding="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size10dp"/>
+    <EditText
+        android:id="@+id/edtMatKhau"
+        android:drawableLeft="@drawable/mk"
+        android:drawableTint="@color/colorWhite"
+        android:drawablePadding="@dimen/size10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/mk"
+        android:textColorHint="@color/colorWhite"
+        android:background="@drawable/bgedt"
+        android:padding="14dp"
+        android:password="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size10dp"/>
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_marginTop="@dimen/size10dp"
+        android:background="@drawable/bgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"
+
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
+        android:padding="10dp"/>
+</LinearLayout>

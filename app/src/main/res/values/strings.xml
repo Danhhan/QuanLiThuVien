@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">QuanLiChiTieu</string>
+    <string name="tendangnhap">Tên Đăng Nhập</string>
+    <string name="mk">Mật Khẩu</string>
+    <string name="ngaysinh">Ngày Sinh</string>
+    <string name="cmnd">Chứng minh dân nhân</string>
+    <string name="dongy">Đồng Ý</string>
+    <string name="thoat">Thoát</string>
+    <string name="dangky">Đăng Ký</string>
+    <string name="loinhaptendangnhap">Vui lòng nhập tên đăng nhập</string>
+    <string name="loinhapmatkhau">Vui Lòng Nhập mật khẩu</string>
+    <string name="thanhcong">Thêm thành công</string>
+    <string name="thatbai">Thêm Thất bại</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="dangnhapthanhcong">Đăng Nhập Thành Công</string>
+    <string name="dangnhapthatbai">Đăng Nhập Thất Bại</string>
+    <string name="trangchu">Trang Chủ</string>
+    <string name="qlmuonsach">Quản lý Mượn Trả Sách</string>
+    <string name="DocGia">Độc Giả</string>
+    <string name="gioithieu">Giới Thiệu</string>
+    <string name="mo">Mở</string>
+    <string name="dong">Đóng</string>
+    <string name="Quanlisach">Quản lí Sách</string>
+    <string name="exit">Thoát</string>
+    <string name="c">Thoát</string>
+
+    <array name="arr4">
+        <item>Ngôn Tình</item>
+        <item>Công Nghệ Thông Tin</item>
+
+        <item>Kinh Tế</item>
+        <item>Khoa Học</item>
+    </array>
+    <array name="arr5">
+        <item>Tất Cả</item>
+        <item>Ngôn Tình</item>
+        <item>Công Nghệ Thông Tin</item>
+
+        <item>Kinh Tế</item>
+        <item>Khoa Học</item>
+    </array>
+</resources>

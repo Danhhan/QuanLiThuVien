@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@drawable/wall"
+    >
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_marginTop="@dimen/size80dp"
+        android:background="@drawable/logo"
+        android:layout_width="@dimen/size150dp"
+        android:layout_height="@dimen/size150dp" />
+    <TextView
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="@dimen/size30sp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="@dimen/size10dp"
+        android:text="Quản Lý Thư Viện"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_marginTop="@dimen/size70dp"
+        android:text="@string/dangnhap"
+        android:background="@drawable/radious"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_marginTop="@dimen/size10dp"
+        android:text="@string/dangky"
+        android:background="@drawable/bgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+</LinearLayout>
