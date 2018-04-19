@@ -8,9 +8,6 @@ import android.database.sqlite.SQLiteDatabase;
 import DTO.ClientDTO;
 import Database.CreateDatabase;
 
-/**
- * Created by Develop on 3/24/2018.
- */
 
 public class ClientDAO {
     SQLiteDatabase database;
