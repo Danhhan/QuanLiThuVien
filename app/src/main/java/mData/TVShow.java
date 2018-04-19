@@ -1,8 +1,6 @@
 package mData;
 
-/**
- * Created by Develop on 3/26/2018.
- */
+
 
 public class TVShow {
     String name;

@@ -7,9 +7,7 @@ import android.widget.ImageView;
 import com.example.develop.QuanLiThuVien.R;
 import com.squareup.picasso.Picasso;
 
-/**
- * Created by Develop on 3/26/2018.
- */
+
 
 public class PicassoClient {
 

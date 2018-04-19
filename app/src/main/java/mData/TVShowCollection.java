@@ -2,9 +2,6 @@ package mData;
 
 import java.util.ArrayList;
 
-/**
- * Created by Develop on 3/26/2018.
- */
 
 public class TVShowCollection {
 
