@@ -13,9 +13,6 @@ import java.util.ArrayList;
 import MyPicasso.PicassoClient;
 import mData.TVShow;
 
-/**
- * Created by Develop on 3/26/2018.
- */
 
 public class CustomAdapter extends BaseAdapter {
 

@@ -13,9 +13,6 @@ import java.util.List;
 
 import DTO.ThongTinSach;
 
-/**
- * Created by Develop on 4/14/2018.
- */
 
 public class AdapterMaSach extends BaseAdapter {
 

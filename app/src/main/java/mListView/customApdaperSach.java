@@ -15,9 +15,7 @@ import java.util.List;
 
 import DTO.ThongTinSach;
 
-/**
- * Created by Develop on 4/12/2018.
- */
+
 
 public class customApdaperSach extends ArrayAdapter<ThongTinSach>{
 

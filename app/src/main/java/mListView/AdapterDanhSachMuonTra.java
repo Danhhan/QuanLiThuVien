@@ -16,9 +16,7 @@ import java.util.List;
 import DAO.ThongtinMuonTraDAO;
 import DTO.Thongtinmuontra;
 
-/**
- * Created by Develop on 4/16/2018.
- */
+
 
 public class AdapterDanhSachMuonTra extends ArrayAdapter<Thongtinmuontra> {
 

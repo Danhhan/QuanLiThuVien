@@ -13,9 +13,7 @@ import java.util.List;
 
 import DTO.DocGia;
 
-/**
- * Created by Develop on 4/14/2018.
- */
+
 
 public class AdapterMaDocGia extends BaseAdapter {
 
