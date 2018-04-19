@@ -26,9 +26,7 @@ import DTO.Thongtinmuontra;
 import mListView.AdapterMaDocGia;
 import mListView.AdapterMaSach;
 
-/**
- * Created by Develop on 4/14/2018.
- */
+
 
 public class TabTra extends Fragment {
 

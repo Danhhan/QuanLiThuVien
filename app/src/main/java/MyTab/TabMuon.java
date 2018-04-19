@@ -28,9 +28,7 @@ import MyFragment.DatePickerFragmentNgayTra;
 import mListView.AdapterMaDocGia;
 import mListView.AdapterMaSach;
 
-/**
- * Created by Develop on 4/14/2018.
- */
+
 
 public class TabMuon extends Fragment implements View.OnClickListener, View.OnFocusChangeListener{
     EditText edtTenSach,edtNgayMuon,edtNgayTra;

@@ -20,9 +20,7 @@ import java.util.List;
 import DAO.ThongTinSachDAO;
 import DTO.ThongTinSach;
 
-/**
- * Created by Develop on 4/11/2018.
- */
+
 
 public class TabThemSach extends Fragment {
 
